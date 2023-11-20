@@ -21,4 +21,16 @@
 .items > li {
   list-style-type: none;
   margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.items > li > a {
+  text-decoration: none;
+}
+
+.searching > input {
+  width: 20rem;
+  height: 22px;
+  border-radius: 10px;
 }

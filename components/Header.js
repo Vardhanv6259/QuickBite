@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../utils/logo.png";
+import "@fortawesome/fontawesome-free/css/all.css";
 const Header = () => {
   return (
     <div className="header">
@@ -23,6 +24,12 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+      </div>
+      <div className="searching">
+        <input type="text" placeholder="food or restaurant"></input>
+        <button>
+          <i className="fas fa-search"></i>
+        </button>
       </div>
     </div>
   );
